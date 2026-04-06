@@ -7,6 +7,12 @@
 CRUD機能に加えて検索・集計処理を実装し、実務を意識したデータ設計とパフォーマンスへの配慮を心がけました。
 
 ---
+## スクリーンショット
+
+![トップページ](public/images/top.png)
+![温泉一覧](public/images/onsen_list.png)
+![温泉詳細](public/images/onsen_detail.png)
+![ランキング](public/images/onsen_ranking.png)
 
 ## 開発の目的
 
