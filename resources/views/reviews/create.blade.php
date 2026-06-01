@@ -20,11 +20,11 @@
                 @error('rating')
                     <p class="text-red-500 text-sm">{{ $message }}</p>
                 @enderror
+                
 
                 <!-- コメント -->
                 <label class="block mb-2">コメント</label>
-                <textarea name="comment" rows="5"
-                        class="w-full mb-2 p-2 border rounded">{{ old('comment') }}</textarea>
+                <textarea name="comment" rows="5" class="w-full mb-2 p-2 border rounded">{{ old('comment') }}</textarea>
                 @error('comment')
                     <p class="text-red-500 text-sm mt-2">{{ $message }}</p>
                 @enderror

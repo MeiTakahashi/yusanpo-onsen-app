@@ -143,7 +143,7 @@
 
                             <h3 class="font-bold text-lg">レビュー編集</h3>
 
-                            <form method="POST" action="{{ route('reviews.update', $review) }}" class="space-y-4">
+                            <form method="POST" action="{{ route('reviews.update', $review) }}"enctype="multipart/form-data" class="space-y-4">
                                 @csrf
                                 @method('PUT')
 
